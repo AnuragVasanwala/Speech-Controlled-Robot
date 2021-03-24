@@ -1,6 +1,6 @@
 # Speech-Controlled-Robot
 
-![Sample-Image] (./FeaturedImage.gif)
+![Sample-Image](./FeaturedImage.gif)
 
 Control your robot using Windows 10 IoT Core Speech Recognition.
 
@@ -10,4 +10,4 @@ With decade-by-decade, new technology improves over the old one. Wireless input 
 
 I have written an article on hackster which will help you to learn Speech Recognition technology provided in Windows 10 IoT Core. At the end of the topic, you will create a robot using Windows 10 IoT Core and Raspberry Pi 2 running Speech Recognition application. This Speech Recognition application enables robot to perform various movement task (for ex: move forward, turn, stop, etc.) based upon user interaction by speech.
 
-Refer article: https://www.hackster.io/AnuragVasanwala/speech-controlled-robot
+Refer article: https://www.hackster.io/AnuragVasanwala/speech-controlled-robot!
