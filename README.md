@@ -1,4 +1,7 @@
 # Speech-Controlled-Robot
+
+![Sample-Image] (./FeaturedImage.gif)
+
 Control your robot using Windows 10 IoT Core Speech Recognition.
 
 In earlier days of computer, interaction with computer was held via punch-cards, trackball, light-gun, keyboards and even via touch screen. All of these devices requires some kind of physical contact to operate them.
