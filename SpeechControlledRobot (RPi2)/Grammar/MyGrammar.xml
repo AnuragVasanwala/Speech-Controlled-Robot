@@ -1,0 +1,57 @@
+﻿<grammar
+  version="1.0"
+  xml:lang="en-US"
+  xmlns="http://www.w3.org/2001/06/grammar"
+  root="rootRule">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <ruleref uri="#rule1"/>
+      </item>
+      <item>
+        <ruleref uri="#rule3"/>
+      </item>
+      <item>
+        <ruleref uri="#rule6"/>
+      </item>
+      <item>
+        <ruleref uri="#rule7"/>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="rule1">
+    <item>move</item>
+    <ruleref uri="#rule2"/>
+  </rule>
+  <rule id="rule2">
+    <one-of>
+      <item>forward</item>
+      <item>reverse</item>
+    </one-of>
+  </rule>
+  <rule id="rule3">
+    <item>turn</item>
+    <ruleref uri="#rule4"/>
+  </rule>
+  <rule id="rule4">
+    <one-of>
+      <item>right</item>
+      <item>left</item>
+    </one-of>
+  </rule>
+  <rule id="rule5">
+    <one-of>
+      <item>engage</item>
+      <item>disengage</item>
+    </one-of>
+  </rule>
+  <rule id="rule6">
+    <ruleref uri="#rule5"/>
+    <item>obstacle</item>
+    <item>detection</item>
+  </rule>
+  <rule id="rule7">
+    <item>stop</item>
+  </rule>
+</grammar>
+
